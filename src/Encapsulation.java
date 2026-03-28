@@ -23,6 +23,7 @@ public class Encapsulation {
         return this.id;
     }
     public String getEmail() {
+
         return this.email;
     }
 

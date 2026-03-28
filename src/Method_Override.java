@@ -20,8 +20,8 @@ class Vehicle {
     }
 }
 
-class Car extends Vehicle {
-    Car(String brand, int speed) {
+class Car1 extends Vehicle {
+    Car1(String brand, int speed) {
         super(brand, speed); // üst sınıfın constructor'unu çağırıyoruz
     }
 
@@ -44,7 +44,7 @@ class Motorcycle extends Vehicle {
 
 public class Method_Override {
     public static void main(String[] args) {
-        Vehicle v1 = new Car("Toyota", 120);
+        Vehicle v1 = new Car1("Toyota", 120);
         Vehicle v2 = new Motorcycle("Honda", 100);
 
         v1.move(); // Araba gidiyor
